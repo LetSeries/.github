@@ -6,6 +6,10 @@
 ![GitHub org](https://img.shields.io/github/followers/LetSeries?label=Followers&style=for-the-badge)
 ![GitHub repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2FLetSeries&query=$.public_repos&style=for-the-badge&label=Public%20Repos)
 
+## 关于我们
+
+LetSeries 成立于 2026 年，是 CubeXMC 研究院旗下专注于 Minecraft 服务端开发的团队。我们致力于打磨「好用、够用、够稳」的插件与工具，从服务端日常运维到玩家体验细节，覆盖不同版本与服务端（Bukkit / Spigot / Paper / Folia / Purpur）。
+
 ## 项目
 
 | 项目 | 说明 | 状态 |
@@ -25,6 +29,18 @@
 | [LetMeAsk](https://github.com/LetSeries/LetMeAsk) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeAsk?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/LetMeAsk?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
 | [Server-AI](https://github.com/LetSeries/Server-AI) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/Server-AI?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/Server-AI?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
 | [HumanVerify](https://github.com/LetSeries/HumanVerify) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/HumanVerify?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/HumanVerify?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
+
+## 团队
+
+| 成员 | 主页 |
+| --- | --- |
+| [FZAoao](https://github.com/FZAoao) | [GitHub](https://github.com/FZAoao) |
+| [kevin-steve772](https://github.com/kevin-steve772) | [GitHub](https://github.com/kevin-steve772) |
+| [angushushu](https://github.com/angushushu) | [GitHub](https://github.com/angushushu) |
+
+## 联系我们
+
+- 官网：[CubeXMC 研究院](https://cubexmc.org/)
 
 ## 展望
 
