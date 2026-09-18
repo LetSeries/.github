@@ -20,6 +20,26 @@ LetSeries 成立于 2026 年，是 CubeXMC 研究院旗下专注于 Minecraft �
 | [Server-AI](https://github.com/LetSeries/Server-AI) | 在 Minecraft 服务器里使用 AI | ![stars](https://img.shields.io/github/stars/LetSeries/Server-AI?style=flat-square) |
 | [HumanVerify](https://github.com/LetSeries/HumanVerify) | 游戏内人机验证插件，支持 Paper、Folia、Purpur | ![stars](https://img.shields.io/github/stars/LetSeries/HumanVerify?style=flat-square) |
 
+### LetMeDo
+
+多功能 Minecraft 插件，几乎支持所有版本与所有服务端（Bukkit / Spigot / Paper / Folia / Velocity / BungeeCord）。采用多模块 Gradle 工程（Gradle Kotlin DSL，Java 21 工具链）：`api` 定义跨平台抽象、`core` 承载平台无关实现、`bukkit` / `velocity` / `bungee` 分别提供各端入口。以 Paper 1.21 API 编译，仅通过反射调用新版本方法并优雅降级，单个 jar 即可在老版本（1.8.8+）到最新版本上启动。内置命令 `/letmedo version`、`/letmedo modules`、`/letmedo reload`。
+
+### LetMeSee
+
+轻量级只读容器查看插件，允许 OP 通过指令**只读**查看任意坐标的容器物品，绕过 Lands、QuickShop、WorldGuard 等保护插件限制。使用 `Bukkit.getRegionScheduler().run()` 在正确的区域线程执行操作，完整支持 Folia 及 Paper。支持箱子、木桶、潜影盒、熔炉、漏斗、投掷器、酿造台等容器，界面自动本地化为中文。命令：`/lms`（查看准星正对的容器）、`/lms <世界> <X> <Y> <Z>`（打开指定坐标容器），权限节点 `letmesee.use`，MIT License。
+
+### LetMeAsk
+
+服务器抢答活动插件，定时在聊天栏出题，玩家抢答可获得金币奖励。支持自动出题、答题超时、Vault 经济集成、答案模糊匹配（相似度阈值可配置）。连续答对过多或回答过快会触发 [HumanVerify](https://github.com/FZAoao/HumanVerify) 人机验证（可选依赖）。支持玩家名、UUID、服务器账户、LittleSkin 等多种支付方式。命令 `/letmeask top / stats / status / start / stop / question / reload`，需 Paper/Spigot 1.20.4+，MIT License。
+
+### Server-AI
+
+面向 Paper/Folia 1.21+ 的 AI 问答插件，兼容 OpenAI Chat Completions 格式 API。`/ask <问题>` 向 AI 提问并广播到服务器，支持 AI Function Calling 控制 Paper 原版实体 NPC（`/npc spawn / remove / say / move / come / stop / info`），不依赖 Citizens。异步 HTTP 请求不占用区域线程，含每玩家冷却、并发上限、超时与长度限制。支持环境变量读取密钥，也支持 Ollama 等无需鉴权的本地 OpenAI 兼容服务。构建产物已重定位 Jackson 避免依赖冲突。
+
+### HumanVerify
+
+游戏内人机验证插件，支持 Paper、Folia、Purpur。玩家进服自动打开验证界面，在背包随机放置唯一方块，点击正确方块即通过。提供 27/36/45/54 格、颜色/材质/顺序/数量/找不同/中心角落等多样验证模式，可固定或随机。支持超时与错误次数限制，通过 Bukkit `ServicesManager` 暴露公共 API 供其他插件调用，使用 `EntityScheduler` 兼容 Folia 区域线程。命令 `/humanverify verify [玩家]`、`/humanverify reload`，需 Java 21+、Paper 1.21.x。
+
 ## 推送统计
 
 | 项目 | 最近推送 | 贡献者 |
