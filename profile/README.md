@@ -18,13 +18,13 @@
 
 ## 推送统计
 
-| 项目 | 最近推送 | 月提交 |
+| 项目 | 最近推送 | 贡献者 |
 | --- | --- | --- |
-| [LetMeDo](https://github.com/LetSeries/LetMeDo) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeDo?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![activity](https://img.shields.io/github/commit-activity/m/LetSeries/LetMeDo?style=flat-square&label=%E6%9C%88%E6%8F%90%E4%BA%A4) |
-| [LetMeSee](https://github.com/LetSeries/LetMeSee) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeSee?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![activity](https://img.shields.io/github/commit-activity/m/LetSeries/LetMeSee?style=flat-square&label=%E6%9C%88%E6%8F%90%E4%BA%A4) |
-| [LetMeAsk](https://github.com/LetSeries/LetMeAsk) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeAsk?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![activity](https://img.shields.io/github/commit-activity/m/LetSeries/LetMeAsk?style=flat-square&label=%E6%9C%88%E6%8F%90%E4%BA%A4) |
-| [Server-AI](https://github.com/LetSeries/Server-AI) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/Server-AI?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![activity](https://img.shields.io/github/commit-activity/m/LetSeries/Server-AI?style=flat-square&label=%E6%9C%88%E6%8F%90%E4%BA%A4) |
-| [HumanVerify](https://github.com/LetSeries/HumanVerify) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/HumanVerify?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![activity](https://img.shields.io/github/commit-activity/m/LetSeries/HumanVerify?style=flat-square&label=%E6%9C%88%E6%8F%90%E4%BA%A4) |
+| [LetMeDo](https://github.com/LetSeries/LetMeDo) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeDo?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/LetMeDo?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
+| [LetMeSee](https://github.com/LetSeries/LetMeSee) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeSee?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/LetMeSee?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
+| [LetMeAsk](https://github.com/LetSeries/LetMeAsk) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/LetMeAsk?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/LetMeAsk?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
+| [Server-AI](https://github.com/LetSeries/Server-AI) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/Server-AI?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/Server-AI?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
+| [HumanVerify](https://github.com/LetSeries/HumanVerify) | ![last-commit](https://img.shields.io/github/last-commit/LetSeries/HumanVerify?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8E%A8%E9%80%81) | ![contributors](https://img.shields.io/github/contributors/LetSeries/HumanVerify?style=flat-square&label=%E8%B4%A1%E7%8C%AE%E8%80%85) |
 
 ## 展望
 
