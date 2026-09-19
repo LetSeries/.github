@@ -1,3 +1,5 @@
+![LetSeries](../images/image1.png)
+
 # LetSeries
 
 **LetSeries** 是 [CubeXMC 研究院](https://cubexmc.org/)（cubexmc.org）旗下的开发组织，专注于为 Minecraft 服务器提供实用、易用的工具与插件。
