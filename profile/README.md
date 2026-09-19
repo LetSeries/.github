@@ -8,6 +8,8 @@
 ![GitHub org](https://img.shields.io/github/followers/LetSeries?label=Followers&style=for-the-badge)
 ![GitHub repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Forgs%2FLetSeries&query=$.public_repos&style=for-the-badge&label=Public%20Repos)
 
+![Java 17+](https://img.shields.io/badge/Java-17%2B-16834b?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-8-02303A?style=for-the-badge&logo=gradle&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-3-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Paper](https://img.shields.io/badge/Paper-Folia-e7b84a?style=for-the-badge)
+
 ## 关于我们
 
 LetSeries 成立于 2026 年，是 CubeXMC 研究院旗下专注于 Minecraft 服务端开发的团队。我们致力于打磨「好用、够用、够稳」的插件与工具，从服务端日常运维到玩家体验细节，覆盖不同版本与服务端（Bukkit / Spigot / Paper / Folia / Purpur）。
@@ -28,7 +30,7 @@ LetSeries 成立于 2026 年，是 CubeXMC 研究院旗下专注于 Minecraft �
 
 ### LetMeSee
 
-轻量级只读容器查看插件，允许 OP 通过指令**只读**查看任意坐标的容器物品，绕过 Lands、QuickShop、WorldGuard 等保护插件限制。使用 `Bukkit.getRegionScheduler().run()` 在正确的区域线程执行操作，完整支持 Folia 及 Paper。支持箱子、木桶、潜影盒、熔炉、漏斗、投掷器、酿造台等容器，界面自动本地化为中文。命令：`/lms`（查看准星正对的容器）、`/lms <世界> <X> <Y> <Z>`（打开指定坐标容器），权限节点 `letmesee.use`，MIT License。
+轻量级只读容器查看插件，允许 OP 通过指令**只读**查看任意坐标的容器物品，绕过 Lands、QuickShop、WorldGuard 等保护插件限制。使用 `Bukkit.getRegionScheduler().run()` 在正确的区域线程执行操作，完整支持 Folia 及 Paper。支持箱子、木桶、潜影盒、熔炉、漏斗、投掷器、酿造台等容器，界面自动本地化为中文。命令：`/lms`（查看准星正对的容器）、`/lms <世界> <X> <Y> <Z>`（打开指定坐标容器），权限节点 `letmesee.use`。
 
 ### LetMeAsk
 
@@ -41,6 +43,16 @@ LetSeries 成立于 2026 年，是 CubeXMC 研究院旗下专注于 Minecraft �
 ### HumanVerify
 
 游戏内人机验证插件，支持 Paper、Folia、Purpur。玩家进服自动打开验证界面，在背包随机放置唯一方块，点击正确方块即通过。提供 27/36/45/54 格、颜色/材质/顺序/数量/找不同/中心角落等多样验证模式，可固定或随机。支持超时与错误次数限制，通过 Bukkit `ServicesManager` 暴露公共 API 供其他插件调用，使用 `EntityScheduler` 兼容 Folia 区域线程。命令 `/humanverify verify [玩家]`、`/humanverify reload`，需 Java 21+、Paper 1.21.x。
+
+## 快速上手
+
+| 项目 | 服务端 | Java | 依赖 | 构建 |
+| --- | --- | --- | --- | --- |
+| [LetMeDo](https://github.com/LetSeries/LetMeDo) | Bukkit / Spigot / Paper / Folia 1.8.8+，Velocity / Bungee | 21 | 无（反射降级） | `./gradlew build` |
+| [LetMeSee](https://github.com/LetSeries/LetMeSee) | Paper / Folia（`folia-supported: true`） | 21 | 无 | `./gradlew build` 或 `.\build.ps1` |
+| [LetMeAsk](https://github.com/LetSeries/LetMeAsk) | Paper / Spigot 1.20.4+ | 17 | Vault（推荐）、HumanVerify（可选）、CMI（可选） | `mvn clean package` 或 `gradle build` |
+| [Server-AI](https://github.com/LetSeries/Server-AI) | Paper / Folia 1.21.4+ | 21 | OpenAI 兼容 API（或本地 Ollama） | `mvn clean verify` |
+| [HumanVerify](https://github.com/LetSeries/HumanVerify) | Paper / Folia / Purpur 1.21.x | 21 | 无 | `mvn package` |
 
 ## 推送统计
 
